@@ -1,0 +1,28 @@
+.h5_content_before::before {
+  content: "✅";
+}
+
+
+.botn_style{
+    color: white;
+    background-color: rgb(102, 211, 14);
+    border-radius: 30px;
+    border: none;
+}
+
+p{margin-bottom: 0!important}
+
+.navbar-nav {
+    display: flex   ;
+    gap: 10px;
+}
+
+.navbar-nav a {
+    padding: 3px!important;
+}
+.botn_style:hover{
+    background-color: rgb(30, 194, 139);
+    transition: 1s;
+    border: none;
+
+}
