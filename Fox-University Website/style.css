@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navbar*/
+
+.nav_bg{
+    background-color: #080e1f!important;
+}
+.nav-link{
+    color: #ffffff;
+   padding-left: 100px!important;
+   
+}
+
+.left img{
+    width: 120px;
+    
+}
+
+@media(max-width:992px){
+    .navbar-toggler-icon{
+        background-color: #ffffff;
+
+    }
+}
+
+/*Navbar End*/
+
+/*Banner*/
+.banner{
+    background-image:   linear-gradient(to right, rgba(209, 205, 200, 0.3), rgba(235, 134, 67, 0.2)) , url('/banner.jpg');
+    height: 540px;
+    background-size: cover;
+}
+.banner_text{
+    color: #ffffff;
+}
+.contact_btn{
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #f1721e;
+    border:none;
+    padding: 10px;
+}
+.banner p{
+    padding: 5px 0;
+}
+
+/*Banner End*/
+
+/*Block*/
+.block_orange{
+    background-color: #f1721e;
+    color: #ffffff;
+    padding: 45px;
+}
+.block_blue{
+    background-color: #0d1128;
+    color: #ffffff;
+    padding: 45px;
+}
+.icon_style{
+    padding: 30px;
+    font-size: 35px;
+}
+
+/*Block-end*/
+
+
+/*offer*/
+
+.offer_image{
+    height: 100vh;
+}
+.para_style{
+    color:#8f8f8f;
+}
+.offer_icon_style{
+    font-size: 30px;
+    background-color: #f1721e;
+    padding: 25px;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+/*offer End*/
+
+/*Location*/ 
+.bg_image_map{
+    background-image:linear-gradient(to right, rgb(71 69 69 / 84%), rgb(235 81 22 / 83%)), url("/Fox\ University/bg_3.jpg");
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+    background-position: top;
+    background-attachment: fixed;
+}
+.img_style{
+   height: 279px;
+    width: 347px;
+}
+
+/*Location*/
+
+/* Course*/
+
+.course_icon_style{
+    color: #f1721e;
+}
+/* Course End*/
+
+.imgCard {
+    height: 220px!important;
+}
+
+.imgCard img {
+    height: 100%!important;
+}
+
+.card {
+    border: 1px solid black!important;
+}
+.course_botn{
+    background-color: #f1721e;
+    border: none;
+}
+
+/*Request*/
+#request{
+    background-image: url(request.jpg);
+    height: 700px;
+    margin-top: 50px;
+    background-size: cover;
+    color: #ffffff;
+}
+.formBox{
+    margin-left: auto;
+    width: 470px;
+    
+}
+.request_btn{
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #f1721e;
+    border:none;
+    padding: 10px 10px 10px 10px;
+    margin-top: 33px;
+    width: 200px;
+
+}
+#request input,textarea, text, select{
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    
+
+}
+#request ::placeholder{
+    color: white;
+}
+#request input,textarea, text, select,option:focus{
+    outline: 0;
+}
+
+/*Request End*/
+
+/*Subscription*/
+
+hr{
+    color: rgb(255, 153, 0);
+    width: 20px;
+    height: 1px;
+    
+    
+}
+#subscribe{
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
+li{
+    list-style-type: none;
+}
+.subscribe_button{
+    color: white;
+    background-color: #f1721e;
+    margin-left: 0;
+    padding: 4px;
+
+}
+/*Subscription End*/
+
+/*Footer*/
+footer{
+    background-color: #050505 ;
+    color: grey;
+    font-weight: 400;
+    padding: 10px;
+}
+.Footer_span{
+    color: rgb(255, 166, 0);
+}
+/*Footer End*/
+
